@@ -1,0 +1,11 @@
+The Account Admin Password is 6969
+The data.txt stores the dynamic Variables tables are
+Registration#/CICN|Name|Balance|AccID|Card#
+
+to register an account select account management input 13 registration number
+and input initial deposit then hit register once register use the registration number
+to the other input then press info to get the Account details including the Card number and Pin
+the Account Number, Card Number and Pin are randomly Generated
+
+to log in the atm first input the cardNum and PIN then press Accept
+[The Cancel, Accept and Clear are bugged atm and harder to see]
