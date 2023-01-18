@@ -93,7 +93,7 @@ public class LinkedList {
            while(temp!=null)
            {
                
-               if(cnic.equals(temp.getCustomer().getCnic()))
+               if(cnic.equals(temp.getCustomer().getAccountNumber()))
                     return temp.getCustomer();
                      temp=temp.getPre();
            
@@ -131,6 +131,7 @@ public class LinkedList {
      
      }
 
+
     boolean check(String card) {
          Node temp=head;
          
@@ -153,7 +154,7 @@ public class LinkedList {
            while(temp!=null)
            {
                
-               if(text.equals(temp.getCustomer().getCnic()))
+               if(text.equals(temp.getCustomer().getAccountNumber()))
                {
                    return true;
                }
@@ -169,13 +170,13 @@ public class LinkedList {
            while(temp!=null)
            {
                
-               if(text.equals(temp.getCustomer().getCnic()))
+               if(text.equals(temp.getCustomer().getAccountNumber()))
                {
-                   return "\nAccount Number                ="+temp.getCustomer().getCnic()
+                   return "\nAccount Number                ="+temp.getCustomer().getAccountNumber()
                          +"\nName                          ="+temp.getCustomer().getName()
                          +"\nPIN                           ="+temp.getCustomer().getPin()
                          +"\nCard#                         ="+temp.getCustomer().getCard()
-                         +"\nRegistration Reference        ="+temp.getCustomer().getAccountNo()
+                         +"\nRegistration Reference        ="+temp.getCustomer().getRegistrationReference()
                          +"\nBalance                       ="+temp.getCustomer().getBalance();
                                  
                }
@@ -191,7 +192,7 @@ public class LinkedList {
            while(temp!=null)
            {
                
-               if(text.equals(temp.getCustomer().getCnic()))
+               if(text.equals(temp.getCustomer().getAccountNumber()))
                {
                    temp.getCustomer().deposit(amount);
                    
@@ -211,7 +212,7 @@ public class LinkedList {
            while(temp!=null)
            {
                
-               if(cuss.getCnic().equals(temp.getCustomer().getCnic()))
+               if(cuss.getAccountNumber().equals(temp.getCustomer().getAccountNumber()))
                {
                    temp.setCustomer(cuss);
                    break;

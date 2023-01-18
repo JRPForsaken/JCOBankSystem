@@ -39,7 +39,7 @@ public class Confirm extends javax.swing.JFrame {
         if(data.length()>5)
         {
           String[] cus= data.split(";");
-         // cnic+";"+name+";"+ balance+";"+pin+ ";" + accountNo + ";"+card
+         // accountNo+";"+name+";"+ balance+";"+pin+ ";" + regRef + ";"+card
          list.insert(new Customer(cus[0],cus[1],Double.parseDouble(cus[2]),Integer.parseInt(cus[3]),cus[4],cus[5]));
         
         }
@@ -447,7 +447,7 @@ new ATMPinConfirrm().setVisible(true);
 
 if(cus.withdraw(amount))
 {
-       JOptionPane.showMessageDialog(null, "Name "+cus.getName()+"\n"+"Account#"+cus.getAccountNo()+"Remaining Balane "+cus.getBalance());
+       JOptionPane.showMessageDialog(null, "Name "+cus.getName()+"\n"+"Account#"+cus.getAccountNumber()+"Remaining Balane "+cus.getBalance());
 list.Withraw(cus);
 writeFile(list.allData());
 

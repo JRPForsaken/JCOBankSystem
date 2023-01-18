@@ -50,7 +50,7 @@ public class Customer {
        
       }
 
-    public String getCnic() {
+    public String getAccountNumber() {
         return accNum;
     }
 
@@ -66,7 +66,7 @@ public class Customer {
         return pin;
     }
 
-    public String getAccountNo() {
+    public String getRegistrationReference() {
         return regRef;
     }
 

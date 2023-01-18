@@ -143,11 +143,11 @@ public class ATMHOME extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 153, 153));
         jButton3.setText("3");
-       /* jButton3.addActionListener(new java.awt.event.ActionListener() {
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
-        });*/
+        });
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 153, 153));
@@ -156,11 +156,11 @@ public class ATMHOME extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(0, 153, 153));
         jButton5.setText("5");
-        /*jButton5.addActionListener(new java.awt.event.ActionListener() {
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
-        });*/
+        });
 
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(0, 153, 153));
@@ -334,10 +334,10 @@ public class ATMHOME extends javax.swing.JFrame {
                         .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(552, 736));
+        setSize(new java.awt.Dimension(552, 721));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
